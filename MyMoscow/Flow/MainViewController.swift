@@ -15,5 +15,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func didTapNextPageButton(_ sender: UIButton) {
+        let vc = QuestionsViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }
 
